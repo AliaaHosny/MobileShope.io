@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="utf-8">
+	  <!--IE compatibility meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Mobile Shope</title>
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<!--**********************Starting navbar************************-->
+    <section class="first-navbar">
+         <nav class="navbar navbar-inverse ">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand center-block" href="#">Mobile Shope <span>App</span></a>
+    </div>
+    <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+        <button type="submit" class="btn btn-default " formaction="Add.html">Add New Mobile</button>
+        </div>
+      </form>
+  </div><!-- /.container -->
+</nav>
+    </section>
+<!--******************Ending navbar************************-->
+
+<!--******************starting second section************************-->
+<section class="chart">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+      <div class="select">
+        <form role="form"><!--Start Contact Form-->
+       <div class="col-md-12">
+       <span>BRAND</span>
+         <div class="form-group">
+        <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Samsung <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Samsung s1</a></li>
+            <li><a href="#">Samsung s6</a></li>
+            <li><a href="#">Samsung Note 3</a></li> 
+            <li><a href="#">Samsung s4</a></li>
+          </ul>
+      </div>
+        </div>
+        
+        </div>
+      <div class="col-md-6">
+      <span>MODEL</span>
+       <div class="form-group">
+          <input type="text" class="form-control input-lg" placeholder="Samsung S6"></input>
+          </div>
+        </div>
+        <div class="col-md-6">
+       <div class="form-group"> 
+          <button type="button" class="btn btn-default btn-lg  ">SEARCH</button>
+        </div>  
+      </div>
+      </form><!--End Contact Form-->
+      </div>
+      </div>
+      <div class="col-lg-6 col-xs-12">
+       <div  id="chartContainer" style="height: 300px; width: 100%;" >
+     </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--***************************Ending section**************************-->
+<!--***************************Ending  brand section**************************-->
+<section class="brand">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="Drop">
+          
+         <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Brand <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Nokia</a></li>
+            <li><a href="#">Samsung </a></li>
+            <li><a href="#">Apple</a></li> 
+            <li><a href="#">Sony</a></li>
+          </ul>
+      </div>
+
+       <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Model <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">6600</a></li>
+            <li><a href="#"> S6</a></li>
+            <li><a href="#">iphone 4</a></li> 
+            <li><a href="#">Z2</a></li>
+          </ul>
+      </div>
+
+       <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Year <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">2001</a></li>
+            <li><a href="#">2013</a></li>
+            <li><a href="#">2015</a></li> 
+            <li><a href="#">2016</a></li>
+          </ul>
+      </div>
+        </div>
+
+      </div>
+       <div class="col-lg-6">
+   <canvas class="pie" id="can" width="200" height="200" />
+      </div>
+    </div>
+  </div>
+</section>
+<!--***************************Ending brand section**************************-->
+
+<!--***************************Start select section**************************-->
+<section class="selected">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+       
+           <fieldset class="form-group">
+    <label for="exampleSelect2"> selected mobile information</label>
+    <select multiple class="form-control" id="exampleSelect2">
+      <option></option>
+      <option></option>
+      <option></option>
+      <option></option>
+      <option></option>
+    </select>
+  </fieldset>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!--***************************Ending sekect section**************************-->
+<script type="text/javascript" src="js/jquery-1.12.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/canvasjs.min.js"></script>
+<script type="text/javascript" src="js/my-js.js"></script>
+</body>
+</html>

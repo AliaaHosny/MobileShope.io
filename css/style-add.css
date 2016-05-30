@@ -1,0 +1,98 @@
+.first-navbar-add .navbar{
+	margin-bottom: 0px;
+}
+.first-navbar-add .navbar-inverse{
+	
+	border:0px;
+	border-radius: 0px;
+}
+ .first-navbar-add .navbar-inverse .navbar-brand{
+	color: #d0d0d0;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+
+}
+/*Start Contact US*/
+.Add{
+	
+	min-height: 300px;
+}
+.Add .fields{
+	
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.Add span{
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+.Add i{
+	margin-left: 200px;
+	color: #111;
+	margin-bottom: 20px;
+}
+.Add .btn-group button[type='button']{
+	border-radius: 20px;
+	border-color: rgba(82,78,78,0.6);
+	width: 300px;
+	margin-right: 20px;
+	text-align: left;
+	text-indent: 10px;
+	font-size: 16px;
+	height: 50px;
+	margin-bottom: 5px;
+	
+
+}
+.Add input[type='text'],
+.Add textarea{
+		border: none;
+}
+
+/*Dropdown menue*/
+.dropdown-menu{
+ 	background: rgba(82,78,78,0.6);
+	border-top: 3px solid #DDD;
+	
+	min-width: 300px;
+	margin-top: -5px;
+}
+
+
+.dropdown-menu > li > a
+
+{
+	color: #fff;
+	padding: 6px 20px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+	padding-left: 30px;
+	transition: padding 0.5s ease;
+	-webkit-transition: padding 0.5s ease;
+	-o-transition: padding 0.5s ease;
+	-moz-transition: padding 0.5s ease;
+	background-color: #EEE;
+	color: #111;
+	border-left: 3px solid #000;
+}
+
+/* End Dropdown menue*/
+.Add .glyphicon{float: right;
+	top: 4px;
+	font-size: 12px;
+
+ }
+
+/*End Contact US*/
+.right{
+	padding-top: 100px;
+}
+.Add .but{
+	margin-left: 100px;
+	
+}
